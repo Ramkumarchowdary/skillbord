@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+}
+.navbar{
+  /* z-index: 45; */
+   
+}
+nav{
+    display: flex;
+    background-color: transparent;
+    z-index: 23;
+    
+    
+   
+
+}
+nav h1{
+font-size: 27px;
+font-weight: 700;
+margin-left: 250px;
+margin-top: 50px;
+color: #062A35;
+z-index: 2;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 41% ;
+    /* border:2px solid #ccc; */
+    margin-left:35px ;
+    font-size: 20px;
+    margin-top: 55px;
+    z-index: 2;
+}
+nav ul li{
+    list-style-type: none;
+    
+    margin-left: 39px;
+    margin-right: 36px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #062A35;
+}
+nav .fa-search{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 54px;
+    z-index: 2;
+    /* margin-left: 42px; */
+
+}
+nav .signup {
+    margin-top: 41px;
+    
+}
+nav .signup a{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #062A35;
+    color:rgb(240, 248, 255);
+    margin-left: 80px;
+    padding: 16px 34px;
+color: rgb(253, 195, 57);
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+nav .signup a:hover{
+    background-color: #cca60c;
+    color: #062A35;
+}
+nav .fa-bars{
+    margin-top: 48px;
+    margin-left: 24px;
+    font-size: 27px;
+    z-index: 2;
+}
+
+.skills{
+    width: 50%;
+    height: 730px;
+    /* position: relative;
+    bottom: 81px; */
+    background-color: rgba(243, 173, 10, 0.82);
+    
+
+}
+.skills h1{
+    padding-top: 160px;
+    width: 67%;
+    font-size: 78px;
+    font-weight: bolder;
+    /* border: 2px solid green; */
+    color: #062A35;
+    margin-left: 180px;
+    text-transform: capitalize;
+    z-index: -23;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills p{
+    /* border: 2px solid black; */
+    width: 537px;
+    margin-top: 22px;
+    margin-left: 180px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+    
+}
+.skills input{
+    width: 71%;
+    height: 59px;
+    margin-top: 20px;
+    margin-left: 178px;
+    border-radius: 5px;
+   
+}
+
+.skills input::placeholder{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.skills .icones {
+    width: 54px;
+    /* border: 2px solid black; */
+    padding: 18px 19px;
+    position: relative;
+    bottom: 58px;
+    left: 663px;
+    height: 58px;
+    color: #fff;
+    background-color: #062A35;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.skills .icones:hover{
+    background-color: #f6c504;
+    color: red;
+}
+.skills-flexbox{
+    display: flex;
+    position: relative;
+    bottom: 94px;
+    /* z-index: -22; */
+}
+.skillsimg{
+    width: 50%;
+    /* border: 2px solid black; */
+    /* height: 200px; */
+    z-index: -78;
+}
+.skillsimg{
+    height: 730px;
+    background: #e11010;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.skillsimg img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.3,1.3);
+}
+
+.courses h2{
+    text-align: center;
+    font-size: 20px;
+    color: #f1c309;
+}
+.courses h2::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: #f7c708;
+    /* border: 2px solid black; */
+    position: relative;
+    bottom: 7px;
+}
+.courses .coursess{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium';
+}
+.courses .coursesp{
+    font-size: 17px;
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+}
+
